@@ -17,7 +17,9 @@ class Signin extends React.Component {
       onPasswordChange = (event) => {
             this.setState({ signInPassword: event.target.value })
       };
-
+/**This is where I think I need to fix...
+ *  when I click the button to login or register
+ * nothing happens.  */
       onSubmitSignIn = () => {
             fetch('http://localhost/3000/signin', {
                   method: 'post',
