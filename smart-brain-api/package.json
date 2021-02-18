@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.mjs",
   "scripts": {
-    "start": "nodemon server.mjs"
+    "start": "serve -s build"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "cors": "^2.8.5",
     "knex": "^0.21.17",
     "pg": "^8.5.1",
-    "react-dev-utils": "^10.0.0"
+    "react-dev-utils": "^10.0.0",
+    "serve": "^11.3.2"
   }
 }
